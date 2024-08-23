@@ -2,22 +2,22 @@
 My nvim configuration for neovim on ubuntu.
 
 Ubuntu apt has an old version of neovim (0.6.1) which is pretty far behind. Instead, we'll install the latest stable version on the Neovim Launchpad PPA.  
-`sudo add-apt-repository ppa:neovim-ppa/stable`
-`sudo apt update`  
-`sudo apt install neovim`
+- `sudo add-apt-repository ppa:neovim-ppa/stable`
+- `sudo apt update`  
+- `sudo apt install neovim`
 
 ## Folder Structure
-~/.config/nvim
-|-- init.lua
-|-- lua/
-|  |-- config/
-|  |  |-- aaa.lua
-|  |  |-- bbb.lua
-|  |  |-- ccc.lua
-|  |  |-- ddd.lua
-|  |-- plugins/
-|     |-- xxx.lua
-|     |-- yyy.lua
+~/.config/nvim  
+|-- init.lua  
+|-- lua/  
+|  |-- config/  
+|  |  |-- aaa.lua  
+|  |  |-- bbb.lua  
+|  |  |-- ccc.lua  
+|  |  |-- ddd.lua  
+|  |-- plugins/  
+|     |-- xxx.lua  
+|     |-- yyy.lua  
 |       :
 
 ## Instructions
