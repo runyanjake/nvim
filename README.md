@@ -7,18 +7,20 @@ Ubuntu apt has an old version of neovim (0.6.1) which is pretty far behind. Inst
 - `sudo apt install neovim`
 
 ## Folder Structure
-~/.config/nvim  
-|-- init.lua  
-|-- lua/  
-|  |-- config/  
-|  |  |-- aaa.lua  
-|  |  |-- bbb.lua  
-|  |  |-- ccc.lua  
-|  |  |-- ddd.lua  
-|  |-- plugins/  
-|     |-- xxx.lua  
-|     |-- yyy.lua  
+```
+~/.config/nvim
+|-- init.lua
+|-- lua/
+|  |-- config/
+|  |  |-- aaa.lua
+|  |  |-- bbb.lua
+|  |  |-- ccc.lua
+|  |  |-- ddd.lua
+|  |-- plugins/
+|     |-- xxx.lua
+|     |-- yyy.lua
 |       :
+```
 
 ## Instructions
 
